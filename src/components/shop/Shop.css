@@ -1,0 +1,50 @@
+/* css for shop section */
+
+.shop{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    color: white;
+}
+
+.shop > h3{
+    font-size: 2rem;
+    align-self: flex-start;
+}
+
+.shopItems{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.shopItem{
+    /* width: 30%; */
+    padding: 1rem;
+    background-color: #414141;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    gap: 2rem;
+
+}
+
+.shopItem > img{
+    width: 20vw;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+
+.shopItem > h4{
+    font-size: 1.5rem;
+}

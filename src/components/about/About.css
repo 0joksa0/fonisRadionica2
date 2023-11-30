@@ -1,0 +1,31 @@
+/* CSS for about section */
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5rem;
+    gap: 5rem;
+    color: white;
+}
+
+
+.aboutUs > p{
+    width: 60%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.aboutUsImgHolder{
+    width: 100vw;
+}
+
+.aboutUsImgHolder > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutUs > button{
+    scale: 0.8;
+}
