@@ -1,33 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-body {
-  background-color: #121111;
-  overflow-x: hidden;
-}
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-label {
-  color: white;
-}
-
-h1 {
-  font-size: 3rem;
-  text-align: center;
-}
 
 /* CSS for form section */
 
-img {
+.formImg {
   display: block;
   margin: auto;
   width: 30%;
@@ -39,11 +13,12 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: white;
 }
 
 form select,
 form,
-button,
+form button,
 form textarea,
 form input:not([type="radio"]) {
   width: 50%;
@@ -73,7 +48,7 @@ form label {
   margin: 0 1rem 0 0;
 }
 
-button {
+form button {
   position: relative;
   padding: 0.8rem 4rem 0.8rem 2rem;
   font-size: 1.5rem;
@@ -85,12 +60,12 @@ button {
   transition: all 0.3s ease;
 }
 
-button:hover {
+from button:hover {
   background-color: white;
   color: black;
 }
 
-button:after {
+from button:after {
   content: "➤";
   font-size: 1.5rem;
   font-weight: bold;
@@ -101,6 +76,6 @@ button:after {
   right: 5%;
 }
 
-button:hover:after {
+form button:hover:after {
   color: black;
 }

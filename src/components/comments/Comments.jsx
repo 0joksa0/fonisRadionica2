@@ -5,7 +5,7 @@ import sara from '../../images/sara.png'
 import jovana from '../../images/jovana.png'
 import misa from '../../images/misa.png'
 
-import {Comment} from '../../modals/comment/Comment.jsx'
+import {Comment} from '../../models/comment/Comment.jsx'
 
 const data = [
     {
