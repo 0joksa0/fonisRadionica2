@@ -1,0 +1,29 @@
+/* CSS for nav section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    padding: 1.5rem 10%;
+}
+
+.navImg{
+    height: 40px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
